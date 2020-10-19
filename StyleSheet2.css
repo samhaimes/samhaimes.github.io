@@ -1,19 +1,17 @@
-﻿header
-{
-   border:solid;
-   border-color: cornflowerblue;
-    background-color:cornflowerblue;
-    font-size:larger;
+header { 
+        border:solid;
+    border-color: cornflowerblue;
+    background-color: cornflowerblue;
+    font-size: 50px;
     color: white;
-    text-align:center;
-    animation:alternate-reverse
-  
-  
+    text-align: center;
+    animation: alternate-reverse
 }
 body
 {
-    background-color:azure;
+    background-color: lightblue;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
 }
 .nav-item-container
 {
@@ -25,6 +23,7 @@ body
     background-color: cornflowerblue;
     text-align: center;
     color:white;
+    font-size: 25px;
     
 }
 .grid-container
@@ -32,10 +31,12 @@ body
     margin: 20px;
 
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+   
+    grid-template-rows: 1fr 1fr;
     grid-gap: 20px;
 }
-.grid-item
-{
+.grid-item {
+    border: dotted 5pt;
+    border-color:cornflowerblue;
+    
 }
