@@ -1,0 +1,41 @@
+﻿header
+{
+   border:solid;
+   border-color: cornflowerblue;
+    background-color:cornflowerblue;
+    font-size:larger;
+    color: white;
+    text-align:center;
+    animation:alternate-reverse
+  
+  
+}
+body
+{
+    background-color:azure;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav-item-container
+{
+    text-align:center;
+
+}
+.section-title
+{
+    background-color: cornflowerblue;
+    text-align: center;
+    color:white;
+    
+}
+.grid-container
+{
+    margin: 20px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+.grid-item
+{
+}
