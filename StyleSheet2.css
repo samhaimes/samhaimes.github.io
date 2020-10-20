@@ -26,6 +26,10 @@ body
     font-size: 25px;
     
 }
+.grid-container-intro
+{
+    grid-template-rows 1fr 1fr;
+}
 .grid-container
 {
     margin: 20px;
